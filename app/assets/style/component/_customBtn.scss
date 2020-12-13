@@ -29,9 +29,6 @@
   font-size: 20px;
 }
 
-@include customBtn-constructer('white', $white, $white, $white, $black);
-@include customBtn-constructer('black', $black, $black, $black, $white);
-
 .customBtn-form{
   padding: 8px 48px;
 }
@@ -39,3 +36,8 @@
 .customBtn-subscribe{
   padding: 21px 26px;
 }
+
+@include customBtn-constructer('white', $white, $white, $white, $black);
+@include customBtn-constructer('black', $black, $black, $black, $white);
+
+
