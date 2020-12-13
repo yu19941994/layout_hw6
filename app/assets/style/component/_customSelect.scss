@@ -1,0 +1,11 @@
+.custom-select{
+    width: 160px;
+    border-radius: 4px 0px 0px 4px;
+    // @include media-breakpoint-up(md) {
+    //     width: 100px;
+    // }
+    @include media-breakpoint-up(lg) {
+        width: 30%;
+    }
+}
+

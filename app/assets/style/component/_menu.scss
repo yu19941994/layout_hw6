@@ -1,0 +1,18 @@
+.custom-menu.active, .custom-menu:hover{
+    border-bottom: 2px solid $primary;
+}
+
+.nav-link:hover{
+    background-color: $secondary;
+    i,p{
+        color: $white;
+    }
+}
+
+.footer-menu:hover{
+    background-color: $secondary;
+}
+
+.sub-menu:hover{
+    background-color: $black;
+}

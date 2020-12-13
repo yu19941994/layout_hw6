@@ -1,0 +1,29 @@
+.nav-link{
+    background-color: $third-dark;
+    .h5{
+        color: $white;
+        @include media-breakpoint-up(lg) {
+           color: $third;
+        }
+    }
+    @include media-breakpoint-up(lg) {
+        background-color: $white;
+    }
+}
+
+.navbar-brand{
+    a{
+        background-image: url('../images/d’Perfume@2x.png');
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 128px; 
+        height: 38px;
+        text-indent: 101%;
+        white-space: nowrap;
+        overflow: hidden;
+        @include media-breakpoint-up(lg) {
+            background-image: url('../images/d’Perfume.png');
+        }
+    }
+}
