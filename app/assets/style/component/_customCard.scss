@@ -2,3 +2,12 @@
     height: 255px;
     object-fit: cover;
 }
+
+.customCard-title:hover{
+    background-color: $secondary;
+    color: $white;
+}
+
+.customCard-icon:hover{
+    color: $dark;
+}

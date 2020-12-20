@@ -32,3 +32,12 @@
         }
     }
 }
+
+.footer-icon{
+    width: 128px;
+}
+
+.more:hover, .forget:hover{
+    color: $third !important;
+    border-bottom: 1px solid $third !important;
+}

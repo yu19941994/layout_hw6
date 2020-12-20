@@ -2,6 +2,9 @@
 body {
   font-family: -apple-system, 'SF Pro Text'; }
 
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+  font-weight: bold !important; }
+
 /*!
  * Bootstrap v5.0.0-alpha3 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
@@ -12018,9 +12021,7 @@ textarea.form-control-lg {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border-radius: 30px;
-  width: 350px;
-  height: 60px; }
+  border-radius: 30px; }
 
 .customBtn {
   font-size: 32px; }
@@ -12092,12 +12093,16 @@ textarea.form-control-lg {
   -o-object-fit: cover;
      object-fit: cover; }
 
+.customCard-title:hover {
+  background-color: #AC8A46;
+  color: #fff; }
+
+.customCard-icon:hover {
+  color: #212529; }
+
 .custom-select {
-  width: 160px;
+  width: 30%;
   border-radius: 4px 0px 0px 4px; }
-  @media (min-width: 992px) {
-    .custom-select {
-      width: 30%; } }
 
 @media (min-width: 992px) {
   .position-lg-absolute {
@@ -12145,5 +12150,12 @@ textarea.form-control-lg {
       padding: 20px 16px; }
     .subscribe-content .input-group-text {
       padding: 20px 26px; }
+
+.footer-icon {
+  width: 128px; }
+
+.more:hover, .forget:hover {
+  color: #8D8D8D !important;
+  border-bottom: 1px solid #8D8D8D !important; }
 
 /*# sourceMappingURL=all.css.map */
