@@ -12032,6 +12032,10 @@ textarea.form-control-lg {
 .customBtn-form {
   padding: 8px 48px; }
 
+.customBtnlike:hover {
+  background-color: #8D8D8D !important;
+  color: #fff; }
+
 .customBtn-subscribe {
   padding: 21px 26px; }
 
